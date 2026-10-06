@@ -4,6 +4,7 @@ namespace CraftCartCore.Services
     {
         public bool ProcessPayment(decimal amount)
         {
+            Console.WriteLine($"Оплата на сумму {amount} руб.");
             return amount > 0;
         }
     }
